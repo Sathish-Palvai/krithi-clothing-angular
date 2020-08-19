@@ -1,3 +1,4 @@
-<div>
-<app-menu-item [sections]="state.sections"></app-menu-item>
-</div>
+<app-menu-item
+  *ngFor="let section of state.sections"
+  [section]="section"
+></app-menu-item>

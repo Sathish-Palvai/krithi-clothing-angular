@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MenuItemComponent implements OnInit {
 
-  @Input() sections;
+  @Input() section;
   constructor() { }
 
   ngOnInit(): void {
