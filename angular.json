@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "krithi-clothing-angular"
+    }
+  },
+  "defaultProject": "krithi-clothing-angular",
+  "cli": {
+    "analytics": false
+  }
 }
